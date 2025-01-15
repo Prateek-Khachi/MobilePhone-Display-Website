@@ -1,2 +1,2 @@
-# MobilePhone_SHopping_Website
+# MobilePhone_Shopping_Website
 Personal Web Development Project
