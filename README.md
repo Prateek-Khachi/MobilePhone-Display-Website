@@ -1,2 +1,2 @@
 # MobilePhone_Display_Website
-Personal Web Development Project
+3D Slider Display of mobiles
