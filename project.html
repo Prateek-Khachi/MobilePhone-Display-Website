@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Mobile Display</title>
     <style>
-        
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        body{
-            background-color: #D2D2D2;
+
+        body {
+            background-color: #4e0101;
             background-image:
-            repeating-linear-gradient(
-                to right, transparent 0 100px,
-                #25283b22 100px 101px
-            ),
-            repeating-linear-gradient(
-                to bottom, transparent 0 100px,
-                #25283b22 100px 101px
-            );
+                repeating-linear-gradient(to right, transparent 0 100px,
+                    #25283b22 100px 101px),
+                repeating-linear-gradient(to bottom, transparent 0 100px,
+                    #25283b22 100px 101px);
         }
-        
-        body::before{
+
+        body::before {
             position: absolute;
             width: min(1400px, 90vw);
-            top: 10%;
-            left: 50%;
-            height: 90%;
+            /* top: 1%; */
+            /* left: 1%; */
+            /* height: 90%; */
             transform: translateX(-50%);
             content: '';
-            background-image: url(bg.png);
+            background-image: url(images/black-product-background.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: top center;
@@ -46,29 +43,28 @@
 
     <div class="banner">
         <div class="slider" style="--quantity:6">
-            <div class="item" style="--position: 1"><img src="i16.jpg" alt=""></div>
-            <div class="item" style="--position: 2"><img src="i-16pm.jpg" alt=""></div>
-            <div class="item" style="--position: 3"><img src="ss23u.jpg" alt=""></div>
-            <div class="item" style="--position: 4"><img src="gp9p.jpg" alt=""></div>
-            <div class="item" style="--position: 5"><img src="13R.png" alt=""></div>
-            <div class="item" style="--position: 6"><img src="x14u.jpg" alt=""></div>
-        </div>    
-    </div>
-
-    <div class="content">
-        <h1 data-content="CSS ONLY">
-            CSS ONLY
-        </h1>
-        <div class="author">
-            <h2>LUN DEV</h2>
-            <p><b>Web Design</b></p>
-            <p>
-                Subscribe to the channel to watch many interesting videos
-            </p>
+            <div class="item" style="--position: 1"><img src="images/i16.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="images/i-16pm.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="images/ss23u.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="images/gp9p.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="images/13R.png" alt=""></div>
+            <div class="item" style="--position: 6"><img src="images/x14u.jpg" alt=""></div>
         </div>
-        <div class="model"></div>
+
+        <div class="content">
+            <h1 data-content="Mobile Display">
+                Mobile Display
+            </h1>
+            <div class="author">
+                <h2>Learning</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    Personal Project
+                </p>
+            </div>
+            <div class="table"></div>
+        </div>
     </div>
-</div>
 
 </body>
 
